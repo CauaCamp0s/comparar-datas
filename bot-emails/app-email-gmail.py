@@ -3,7 +3,7 @@
 #from senha import senha 
 #
 ##Abrir email
-#email_address = 'cauacampos258@gmail.com'
+#email_address = '#########@gmail.com'
 #email_password = senha
 #
 ##Criar email
@@ -35,9 +35,9 @@ def send_email():
 
     msg = email.message.Message()
     msg['Subject'] = 'Teste envio de email com python'
-    msg['From'] = 'cauacampos258@gmail.com'
+    msg['From'] = '########@gmail.com'
     msg['To'] = '#############@gmail.com'
-    senha = 'akvcqskunyxhkpuz'
+    senha = '##########'
     
     msg.add_header('Content-Type', 'text/html')
     msg.set_payload(body_email)
