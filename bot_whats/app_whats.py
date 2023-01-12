@@ -20,7 +20,7 @@ browser.get("https://web.whatsapp.com")
 #windows.get("https://web.whatsapp.com/")
 pyautogui.sleep(20)
 
-list = ["cauã campos LTDA" ]
+list = ["##############" ]
 
 for grupo in list:
     #windows.find_element(By.XPATH, search_group).send_keys(grupo)
