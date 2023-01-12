@@ -14,9 +14,9 @@ def send_email():
 #Abrir email e enviar    
     msg = email.message.Message()
     msg['Subject'] = 'Teste envio de email com python'
-    msg['From'] = 'caua.ciee@sergipegas.com.br'
-    msg['To'] = 'caua.campos.job@gmail.com'
-    senha = 'ca120400!'
+    msg['From'] = '################'
+    msg['To'] = '#########@gmail.com'
+    senha = '#############'
     
     msg.add_header('Content-Type', 'text/html')
     msg.set_payload(body_email)
