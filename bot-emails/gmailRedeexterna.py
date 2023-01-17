@@ -13,8 +13,8 @@ def send_email():
 
     msg = email.message.Message()
     msg['Subject'] = 'Teste envio de email com python'
-    msg['From'] = 'cauacampos258@gmail.com'
-    msg['To'] = 'caua.ciee@sergipegas.com.br'
+    msg['From'] = '#######@gmail.com'
+    msg['To'] = '#######@sergipegas.com.br'
     senha = 'akvcqskunyxhkpuz'
     
     msg.add_header('Content-Type', 'text/html')
