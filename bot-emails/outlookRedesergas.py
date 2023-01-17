@@ -13,14 +13,14 @@ def SendEmail():
     #Abrir email e enviar    
     msg = email.message.Message()
     msg['Subject'] = 'Teste envio de email com python'
-    msg['From'] = 'sendmail@sergipegas.com.br'
-    msg['To'] = 'cauacampos258@gmail.com'
+    msg['From'] = '##############@sergipegas.com.br'
+    msg['To'] = '##############@gmail.com'
     # senha = '123caua!'
     
     msg.add_header('Content-Type', 'text/html')
     msg.set_payload(body_email)
     
-    s = smtplib.SMTP('malibu.sergipegas.com.br:25')
+    s = smtplib.SMTP('###################.com.br:25')
     s.connect('malibu', 25)
     s.ehlo()
     # s.starttls()
