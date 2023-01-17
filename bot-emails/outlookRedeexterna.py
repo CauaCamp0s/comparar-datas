@@ -7,9 +7,9 @@ green_highlighter = '\033[1;36;42m'
 
 smtp = 'smtp.office365.com'
 port = 587
-email_from = 'caua.ciee@sergipegas.com.br'
-password = '123caua!'
-email_to = 'caua.campos.job@gmail.com'
+email_from = '############@sergipegas.com.br'
+password = '###########'
+email_to = '############@gmail.com'
 subject = 'Teste envio de email com python 3'
 body_email = '''
     <p>Olá Cauã,</p>
